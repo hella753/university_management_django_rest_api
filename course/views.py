@@ -122,7 +122,7 @@ class LectureViewSet(ModelViewSet):
         ).all()
 
     @action(detail=True, methods=["get"])
-    def final_grade(self, request):
+    def final_grade(self, request, pk=None):
         """
         This action calculates the final grade for the subject
         and current student.
