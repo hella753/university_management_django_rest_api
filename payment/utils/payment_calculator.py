@@ -59,7 +59,7 @@ class PaymentCalculator:
                 total_paid = partly_paid_queryset.aggregate(
                     total_paid=Sum("amount")
                 )["total_paid"]
-                new_fee = semester_fee - total_paid
+                new_fee = Decimal(semester_fee) - total_paid
                 payment_dict.update({"semester_fee": new_fee})
         self.student.loan = payment_dict.get("semester_fee")
         self.student.save()
