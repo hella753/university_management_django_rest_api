@@ -69,6 +69,12 @@ class UserModificationSerializer(serializers.ModelSerializer):
         faculty = data.get("faculty")
         department = data.get("department")
         is_superuser = data.get("is_superuser")
+        scholarship = data.get("government_scholarship")
+
+        if scholarship not in [0.00, 50.00, 70.00, 100.00]:
+            raise serializers.ValidationError(
+                "Invalid scholarship percentage."
+            )
 
         if faculty and department:
             raise serializers.ValidationError(

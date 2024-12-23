@@ -161,6 +161,14 @@ class BlacklistTokenView(CreateAPIView):
 class AttendanceViewSet(viewsets.ModelViewSet):
     """
     A ViewSet for marking attendance.
+
+    If the action is 'create', 'update', 'partial_update', or 'destroy',
+    only the professor can access the view.
+
+    If the user is a student, return the attendances of the student.
+
+    If the user is a professor, return the attendances of the professor's
+    students.
     """
     serializer_class = AttendanceSerializer
     filter_backends = [DjangoFilterBackend]
@@ -168,11 +176,6 @@ class AttendanceViewSet(viewsets.ModelViewSet):
     permission_classes = [IsAuthenticated]
 
     def get_permissions(self):
-        """
-        If the action is 'create', 'update', 'partial_update', or 'destroy',
-        only the professor can access the view.
-        :return:
-        """
         if self.action in ['create', 'update', 'partial_update', 'destroy']:
             return [IsOwnProfessor()]
         if self.action in ['retrieve']:

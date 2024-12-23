@@ -2,8 +2,6 @@ import os
 from dotenv import load_dotenv
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
-from rest_framework.authentication import SessionAuthentication
-from rest_framework.decorators import authentication_classes
 from rest_framework_simplejwt.authentication import JWTAuthentication
 
 load_dotenv()

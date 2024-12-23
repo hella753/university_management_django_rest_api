@@ -33,9 +33,9 @@ urlpatterns = i18n_patterns(
        path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
        path('api/token/blacklist/', BlacklistTokenView.as_view(), name='token-blacklist'),
        path('api-auth/', include('rest_framework.urls')),
-       path('swagger/', schema_view.with_ui('swagger',cache_timeout=0), name='schema-swagger-ui')
-)
-
+) + [
+    path('swagger/', schema_view.with_ui('swagger',cache_timeout=0), name='schema-swagger-ui')
+]
 
 if settings.DEBUG:
     urlpatterns += debug_toolbar_urls()

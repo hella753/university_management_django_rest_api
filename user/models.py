@@ -103,7 +103,6 @@ class User(AbstractBaseUser, PermissionsMixin):
         decimal_places=2,
         default=0,
         verbose_name=_("სახელმწიფო გრანტი"),
-        validators=[MinValueValidator(0.00), MaxValueValidator(100.00)]
     )
     loan = models.DecimalField(
         max_digits=10,
