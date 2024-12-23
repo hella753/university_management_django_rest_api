@@ -1,0 +1,98 @@
+{
+    "course_name": "Python დაპროგრამების ენა II",
+    "course_code": "PHY3240",
+    "course_annotation": "Today, Python is actively used in creating real programs. the course teaches\nstudents how to work professionally with classes. students will learn how to work\nwith relational and non-relational databases. Learn how to create GUI programs in\nPython. The course will introduce students to parallel programming and data\nscience.Sstudents will learn effective and safe manipulation of data.",
+    "course_status": "არჩევითი",
+    "ECTS": "6",
+    "course_level": "საბაკალავრო",
+    "semester": 6,
+    "lecturer": "ირაკლი ფირცხალავა",
+    "lecturer_eng": "irakli phirtskhalava",
+    "lecturer_education": "ბაკალავრი",
+    "lecturer_work": "მოწვეული ლექტორი",
+    "lecturer_email": "i_pirtskhalava@example.com",
+    "purpose": "Te goal of the course is to introduce students to how to use Python to create real\nprograms. Another important goal of the course is to introduce students to how to\nwork with databases and GUIs using Python. The goalof the course is to teach\nstudents data science in Python. Also, the purpose of the course is to teach students\nhow to use classes in Python when programming.",
+    "results": "After successful completion of the course, students:\n• will be able to write programs using Python classes;\n• uses parallel programming approaches;\n• creates and manages a process in Python;\n• works with GUI;\n• works with databases in Python;\n• manipulates data using a data science approach;",
+    "literature": "The Python Standard Library by Example Doug Hellmann 2017",
+    "assignments": [
+        {
+            "info": "ფინალური გამოცდა",
+            "amount": "1",
+            "grade": "30.00",
+            "total": "30.00"
+        },
+        {
+            "info": "შუალედური გამოცდა",
+            "amount": "1",
+            "grade": "25.00",
+            "total": "25.00"
+        },
+        {
+            "info": "ტესტი/საკონტროლო წერა",
+            "amount": "2",
+            "grade": "15.00",
+            "total": "30.00"
+        },
+       {
+            "info": "პროექტი/ანგარიში",
+            "amount": "1",
+            "grade": "15.00",
+            "total": "15.00"
+        }
+    ],
+    "lecture_plans": [
+        {
+            "info": "ლექცია -2.00 საათიანი\nთარიღი\n2024-02-23\nსაათი\n15:45-17:40\nაუდიტორია\nC21",
+            "detail": "თემა 1\nClasses\nგანსახილველი საკითხები\nClasses, inheritance, decorators, class and static methods\nსავალდებულო ლიტერატურა\nPython 3 Standard Library by Example"
+        },
+        {
+            "info": "ლექცია -2.00 საათიანი\nთარიღი\n2024-03-01\nსაათი\n15:45-17:40\nაუდიტორია\nC21",
+            "detail": "თემა 2\nParalel programming\nგანსახილველი საკითხები\nThreads\nProcesses\nLibaries for threads and processes\nსავალდებულო ლიტერატურა\nPython 3 Standard Library by Example"
+        },
+        {
+            "info": "ლექცია -2.00 საათიანი\nთარიღი\n2024-03-08\nსაათი\n15:45-17:40\nაუდიტორია\nC21",
+            "detail": "თემა 3\nGUI\nგანსახილველი საკითხები\nForms, Windows, Buttons, Checkboxes\nსავალდებულო ლიტერატურა\nPython 3 Standard Library by Example"
+        },
+        {
+            "info": "ლექცია -2.00 საათიანი\nთარიღი\n2024-03-15\nსაათი\n15:45-17:40\nაუდიტორია\nC21",
+            "detail": "თემა 4\nGUI\nგანსახილველი საკითხები\nMessageboxes, menus, work with graphics\nსავალდებულო ლიტერატურა\nPython 3 Standard Library by Example"
+        },
+        {
+            "info": "ლექცია -2.00 საათიანი\nთარიღი\n2024-03-22\nსაათი\n15:45-17:40\nაუდიტორია\nC21",
+            "detail": "თემა 5\nQuiz\nგანსახილველი საკითხები\nwriting the code\nსავალდებულო ლიტერატურა\nტესტი/საკონტროლო წერა (გამოქვითვის მეთოდით)"
+        },
+        {
+            "info": "ლექცია -2.00 საათიანი\nთარიღი\n2024-03-29\nსაათი\n15:45-17:40\nაუდიტორია\nC21",
+            "detail": "თემა 6\nRelational Databases\nგანსახილველი საკითხები\n• Working with SQLite\n• secure queries in SQLite\n• practice\nსავალდებულო ლიტერატურა\nPython 3 Standard Library by Example"
+        },
+        {
+            "info": "ლექცია -2.00 საათიანი\nთარიღი\n2024-05-10\nსაათი\n15:45-17:40\nაუდიტორია\nC21",
+            "detail": "თემა 7\nnon-relational database\nგანსახილველი საკითხები\nmongodb interface\nmongodb queries\nსავალდებულო ლიტერატურა\nPython 3 Standard Library by Example"
+        },
+        {
+            "info": "ლექცია -2.00 საათიანი\nთარიღი\n2024-05-17\nსაათი\n15:45-17:40\nაუდიტორია\nC21",
+            "detail": "თემა\n8\nNympy Arrays\nგანსახილველი საკითხები\nintroductions\nNumPy functions\nattributes\nსავალდებულო ლიტერატურა\nPython 3 Standard Library by Example"
+        },
+        {
+            "info": "ლექცია -2.00 საათიანი\nთარიღი\n2024-05-31\nსაათი\n15:45-17:40\nაუდიტორია\nC21",
+            "detail": "თემა\n9\nNympy Arrays\nგანსახილველი საკითხები\n• indexes in NumPy\n• Arithmetic of NumPy arrays\nსავალდებულო ლიტერატურა\nPython 3 Standard Library by Example"
+        },
+        {
+            "info": "ლექცია -2.00 საათიანი\nთარიღი\n2024-06-07\nსაათი\n15:45-17:40\nაუდიტორია\nC21",
+            "detail": "თემა 10\nData Analysis\nგანსახილველი საკითხები\n• introduction to pandas\n• Working with CSV files\n• data frames and series\n• filters\nსავალდებულო ლიტერატურა\nPython 3 Standard Library by Example"
+        },
+        {
+            "info": "ლექცია -2.00 საათიანი\nთარიღი\n2024-06-14\nსაათი\n15:45-17:40\nაუდიტორია\nC21",
+            "detail": "თემა 11\nData Analysis\nგანსახილველი საკითხები\n• work on indexes\n• working with filters\nსავალდებულო ლიტერატურა\nPython 3 Standard Library by Example\nპროექტი/ანგარიში"
+        },
+        {
+            "info": "ლექცია -2.00 საათიანი\nთარიღი\n2024-06-21\nსაათი\n15:45-17:40\nაუდიტორია\nC21",
+            "detail": "თემა 12\nplotting\nგანსახილველი საკითხები\npyplot library\ngraphics\nსავალდებულო ლიტერატურა\nPython 3 Standard Library by Example\nტესტი/საკონტროლო წერა (გამოქვითვის მეთოდით)"
+        },
+        {
+            "info": "ლექცია -2.00 საათიანი\nთარიღი\n2024-06-28\nსაათი\n15:45-17:40\nაუდიტორია\nC21",
+            "detail": "თემა 13\nQuiz and summarization\nგანსახილველი საკითხები\nSummarization of the material\nსავალდებულო ლიტერატურა\nტესტი/საკონტროლო წერა (გამოქვითვის მეთოდით)"
+        }
+
+    ]
+}

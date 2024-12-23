@@ -1,0 +1,387 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-23 12:37+0400\n"
+"PO-Revision-Date: 2024-12-22 19:16+0400\n"
+"Last-Translator: admin admin <admin@example.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.1\n"
+
+#: .\course\choices.py:5
+msgid "ორშაბათი"
+msgstr "Monday"
+
+#: .\course\choices.py:6
+msgid "სამშაბათი"
+msgstr "Tuesday"
+
+#: .\course\choices.py:7
+msgid "ოთხშაბათი"
+msgstr "Wednesday"
+
+#: .\course\choices.py:8
+msgid "ხუთშაბათი"
+msgstr "Thursday"
+
+#: .\course\choices.py:9
+msgid "პარასკევი"
+msgstr "Friday"
+
+#: .\course\choices.py:10
+msgid "შაბათი"
+msgstr "Saturday"
+
+#: .\course\choices.py:11
+msgid "კვირა"
+msgstr "Sunday"
+
+#: .\course\models.py:14
+msgid "შეიქმნა"
+msgstr "created at"
+
+#: .\course\models.py:18
+msgid "განახლდა"
+msgstr "updated at"
+
+#: .\course\models.py:31
+msgid "დეპარტამენტის სახელი"
+msgstr "department name"
+
+#: .\course\models.py:35
+msgid "დეპარტამენტის კოდი"
+msgstr "department code"
+
+#: .\course\models.py:48
+msgid "ფაკულტეტის სახელი"
+msgstr "faculty name"
+
+#: .\course\models.py:52
+msgid "ფაკულტეტის კოდი"
+msgstr "faculty code"
+
+#: .\course\models.py:57 .\course\models.py:79 .\user\models.py:123
+msgid "დეპარტამენტი"
+msgstr "department"
+
+#: .\course\models.py:70
+msgid "კურსის სახელი"
+msgstr "course name"
+
+#: .\course\models.py:74
+msgid "კურსის კოდი"
+msgstr "course code"
+
+#: .\course\models.py:82
+msgid "კრედიტები"
+msgstr "credits"
+
+#: .\course\models.py:87
+msgid "პრერეკვიზიტები"
+msgstr "prerequisites"
+
+#: .\course\models.py:104
+msgid "ლექციის სახელი"
+msgstr "lecture name"
+
+#: .\course\models.py:109
+msgid "კურსი"
+msgstr "course"
+
+#: .\course\models.py:112
+msgid "დღე"
+msgstr "day"
+
+#: .\course\models.py:118
+msgid "დაწყების დრო"
+msgstr "start time"
+
+#: .\course\models.py:123
+msgid "დასრულების დრო"
+msgstr "end time"
+
+#: .\course\models.py:130
+msgid "აუდიტორია"
+msgstr "auditorium"
+
+#: .\course\models.py:138 .\user\choices.py:5
+msgid "ლექტორი"
+msgstr "professor"
+
+#: .\course\models.py:144
+msgid "სასწავლო წელი"
+msgstr "university year"
+
+#: .\course\models.py:148
+msgid "სტუდენტების დასაშვები რაოდენობა"
+msgstr "capacity"
+
+#: .\course\models.py:154
+msgid "სილაბუსი"
+msgstr "syllabus"
+
+#: .\course\models.py:160
+msgid "რესურსები"
+msgstr "resources"
+
+#: .\course\models.py:165 .\course\models.py:342 .\payment\models.py:12
+msgid "სემესტრი"
+msgstr "semester"
+
+#: .\course\models.py:173
+msgid "ლექციის პირველი დღე"
+msgstr "first day of the lecture"
+
+#: .\course\models.py:179
+msgid "ლექციის პირველი დღე შუალედურების შემდეგ"
+msgstr "first day of the lecture after midterms"
+
+#: .\course\models.py:198 .\course\models.py:306 .\course\models.py:372
+#: .\user\choices.py:4
+msgid "სტუდენტი"
+msgstr "student"
+
+#: .\course\models.py:203 .\course\models.py:316
+msgid "ქულა"
+msgstr "grade"
+
+#: .\course\models.py:208 .\course\models.py:377
+msgid "დავალება"
+msgstr "assignment"
+
+#: .\course\models.py:223
+msgid "დავალების სახელი"
+msgstr "assignment name"
+
+#: .\course\models.py:226
+msgid "აღწერა"
+msgstr "description"
+
+#: .\course\models.py:233 .\course\models.py:311 .\user\models.py:157
+msgid "ლექცია"
+msgstr "lecture"
+
+#: .\course\models.py:236
+msgid "დედლაინი"
+msgstr "deadline"
+
+#: .\course\models.py:241
+msgid "მაქსიმალური ქულათა რაოდენობა"
+msgstr "maximum points"
+
+#: .\course\models.py:254
+msgid "რესურსის სახელი"
+msgstr "resource name"
+
+#: .\course\models.py:257
+msgid "ბმული"
+msgstr "URL"
+
+#: .\course\models.py:263 .\course\models.py:381
+msgid "ფაილი"
+msgstr "file"
+
+#: .\course\models.py:279
+msgid "აუდიტორიის სახელი"
+msgstr "auditorium name"
+
+#: .\course\models.py:282
+msgid "ტევადობა"
+msgstr "capacity"
+
+#: .\course\models.py:286
+msgid "კომპიუტერებით"
+msgstr "has computers"
+
+#: .\course\models.py:319
+msgid "ჩაიჭრა"
+msgstr "failed"
+
+#: .\course\models.py:323 .\user\models.py:40
+msgid "აქტიურია"
+msgstr "is active"
+
+#: .\course\models.py:337
+msgid "წელი"
+msgstr "year"
+
+#: .\course\models.py:339
+msgid "Example: 2020-2021"
+msgstr "example 2020-2021"
+
+#: .\course\models.py:344
+msgid "შემოდგომა"
+msgstr "fall"
+
+#: .\course\models.py:345
+msgid "გაზაფხული"
+msgstr "spring"
+
+#: .\course\models.py:348
+msgid "დაწყების თარიღი"
+msgstr "start date"
+
+#: .\course\models.py:351
+msgid "დასრულების თარიღი"
+msgstr "end date"
+
+#: .\course\models.py:354
+msgid "შუალედური გამოცდების დაწყების თარიღი"
+msgstr "midterm exams start date"
+
+#: .\course\models.py:357
+msgid "დასკვნითი გამოცდების დაწყების თარიღი"
+msgstr "final exams start date"
+
+#: .\payment\models.py:8
+msgid "გადახდის კოდი"
+msgstr "order id"
+
+#: .\payment\models.py:9
+msgid "თანხა"
+msgstr "amount"
+
+#: .\payment\models.py:10
+msgid "შექმნილია"
+msgstr "created at"
+
+#: .\payment\models.py:11 .\user\models.py:152 .\user\models.py:187
+msgid "მომხმარებელი"
+msgstr "user"
+
+#: .\user\choices.py:6
+msgid "ადმინისტრატორი"
+msgstr "Administrato"
+
+#: .\user\choices.py:7
+msgid "მენეჯერი"
+msgstr "Manager"
+
+#: .\user\choices.py:8
+msgid "კურსდამთავრებული"
+msgstr "graduate"
+
+#: .\user\models.py:21
+msgid "სახელი"
+msgstr "first name"
+
+#: .\user\models.py:27
+msgid "გვარი"
+msgstr "last name"
+
+#: .\user\models.py:32
+msgid "მომხმარებლის სახელი"
+msgstr "username"
+
+#: .\user\models.py:36
+msgid "ელ. ფოსტა"
+msgstr "email"
+
+#: .\user\models.py:44
+msgid "სტაფია"
+msgstr "is staff"
+
+#: .\user\models.py:48
+msgid "სუპერიუზერია"
+msgstr "is superuser"
+
+#: .\user\models.py:51
+msgid "რეგისტრაციის თარიღი"
+msgstr "date joined"
+
+#: .\user\models.py:58
+msgid "ფოტოსურათი"
+msgstr "image"
+
+#: .\user\models.py:64
+msgid "პირადი ნომერი"
+msgstr "identity number"
+
+#: .\user\models.py:69
+msgid "ჩარიცხვის წელი"
+msgstr "enrollment year"
+
+#: .\user\models.py:75
+msgid "ტელეფონის ნომერი"
+msgstr "phone number"
+
+#: .\user\models.py:82
+msgid "ფაკულტეტი"
+msgstr "faculty"
+
+#: .\user\models.py:87
+msgid "დაბადების თარიღი"
+msgstr "date of birth"
+
+#: .\user\models.py:92
+msgid "ლექციები"
+msgstr "lectures"
+
+#: .\user\models.py:98
+msgid "კურსები"
+msgstr "courses"
+
+#: .\user\models.py:105
+msgid "სახელმწიფო გრანტი"
+msgstr "government scholarship"
+
+#: .\user\models.py:112
+msgid "ვალი"
+msgstr "loan"
+
+#: .\user\models.py:116
+msgid "როლი"
+msgstr "role"
+
+#: .\user\models.py:160
+msgid "თარიღი"
+msgstr "date"
+
+#: .\user\models.py:164
+msgid "პირველი საათი"
+msgstr "first hour"
+
+#: .\user\models.py:168
+msgid "მეორე საათი"
+msgstr "second hour"
+
+#: .\user\models.py:172
+msgid "მესამე საათი"
+msgstr "third hour"
+
+#: .\user\models.py:189
+msgid "წვდომის ტოკენი"
+msgstr "access token"
+
+#: .\user\models.py:190
+msgid "განახლების ტოკენი"
+msgstr "refresh token"
+
+#: .\user\models.py:191
+msgid "ტოკენის ვადა"
+msgstr "token expiry"
+
+#: .\user\models.py:192
+msgid "ტოკენის ტიპი"
+msgstr "token type"
+
+#~ msgid "დასკვნითი გამოცდა"
+#~ msgstr "Final Exam"
+
+#~ msgid "საბაკალავრო ნაშრომი"
+#~ msgstr "Bachelor Thesis"
+
+#~| msgid "საბაკალავრო ნაშრომი"
+#~ msgid "სამაგისტრო ნაშრომი"
+#~ msgstr "Master Thesis"

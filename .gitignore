@@ -1,0 +1,13 @@
+.idea/
+__pycache__/
+uni_backend/__pycache__/
+user/__pycache__/
+user/migrations/__pycache__/
+course/__pycache__/
+course/migrations/__pycache__/
+payment/__pycache__/
+payment/migrations/__pycache__/
+.venv/
+.env
+user/credentials.json
+db.sqlite3
