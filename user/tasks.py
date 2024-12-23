@@ -25,7 +25,7 @@ def deactivate_student_status():
 @shared_task
 def add_grade_record(student, lecture):
     """
-    Add grade record for students.
+    Add grade record for students
     :param: student - User object
     :param: lecture - Lecture object
     """
@@ -83,7 +83,9 @@ def make_graduate():
             bachelors = student_records.filter(
                 lecture__name__in=["საბაკალავრო ნაშრომი", "Bachelor Thesis"]
             )
+            print(bachelors)
             if masters.exists():
+                print("masters exists")
                 if not masters.first().failed:
                     student_records = student_records.filter(
                         lecture__uni_year__in=[5, 6]
@@ -94,7 +96,7 @@ def make_graduate():
                     if total_credits["total_credits"] >= 120:
                         student.role = 5
                         student.save()
-            if bachelors.exists():
+            elif bachelors.exists():
                 if not bachelors.first().failed:
                     total_credits = student_records.aggregate(
                         total_credits=Sum("lecture__course__credits")

@@ -41,6 +41,10 @@ class UserViewSet(viewsets.ModelViewSet):
     filterset_fields = ["role", "lectures", "courses"]
 
     def get_serializer_class(self):
+        if self.action == "forget_password":
+            return ResetPasswordSerializer
+        if self.action == "reset_password":
+            return ConfirmResetSerializer
         if self.action in ["create", "update", "partial_update"]:
             return UserModificationSerializer
         return UserDisplaySerializer

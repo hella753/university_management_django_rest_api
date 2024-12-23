@@ -1,3 +1,5 @@
+import os
+
 from django.contrib.auth.password_validation import validate_password
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
 from django.utils.encoding import force_bytes
@@ -155,7 +157,7 @@ class ResetPasswordSerializer(serializers.Serializer):
         uid = urlsafe_base64_encode(force_bytes(user.pk))
         token = PasswordResetTokenGenerator().make_token(user)
         url = (f"{request.scheme}://{request.get_host()}/api/user/"
-               f"users/reset-password/?uid={uid}&token={token}")
+               f"user/reset-password/?uid={uid}&token={token}")
         send_reset_email([email], url)
         return user
 

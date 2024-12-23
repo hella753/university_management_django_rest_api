@@ -171,6 +171,7 @@ MEDIA_ROOT = BASE_DIR / 'media/'
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_simplejwt.authentication.JWTAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
     ],
     'DEFAULT_FILTER_BACKENDS': [
         'django_filters.rest_framework.DjangoFilterBackend',
@@ -195,9 +196,9 @@ SWAGGER_SETTINGS = {
 
 # Email settings
 EMAIL_USE_TLS = True
-EMAIL_PORT = os.getenv("EMAIL_PORT")
-EMAIL_BACKEND = os.getenv("EMAIL_BACKEND")
-EMAIL_HOST = os.getenv("EMAIL_HOST")
+EMAIL_PORT = 587
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gmail.com"
 EMAIL_HOST_USER = os.getenv("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = os.getenv("EMAIL_KEY")
 
@@ -205,7 +206,6 @@ PAYPAL_TEST = True
 PAYPAL_API_BASE_URL = os.getenv("PAYPAL_BASE_URL")
 PAYPAL_CLIENT_ID = os.getenv("PAYPAL_ID")
 PAYPAL_CLIENT_SECRET = os.getenv("PAYPAL_CLIENT_SECRET")
-
 
 CELERY_BROKER_URL = 'redis://127.0.0.1:6379'
 CELERY_ACCEPT_CONTENT = ['application/json']
